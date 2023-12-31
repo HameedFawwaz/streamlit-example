@@ -2,7 +2,7 @@ streamlit
 moviepy
 torch
 numpy
-skimage
+scikit-image
 IPython
 matplotlib
 imageio
