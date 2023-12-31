@@ -5,14 +5,16 @@ from processes.process import process
 import shutil
 import os
 
-st.title("Deep Fake Generator!!!!!")
-st.header("yipee!!!")
+st.title("Deep Fake Generator")
+st.header("Create deep faked videos from images using templates!")
+
+st.write("Welcome to the deep fake generator! Here are the instructions to use the deep fake generator!\n 1. Upload the image you want to deep fake! (accepted formats: PNG, JPG)\n 2. Upload the template video you would like to use, it must be less than 30 seconds in length (accepted format: MP4)\n 3. Press submit and please wait up to 20 minutes for your request to process and do not leave the application!")
 
 with st.form(key="Form :", clear_on_submit= True):
 
     img = st.file_uploader(label="upload the image you want to deepfake")
     temp = st.file_uploader(label="upload the template you would like to use")
-    submit = st.form_submit_button(label="submit")
+    submit = st.form_submit_button(label="Submit")
 
 if submit:
 
