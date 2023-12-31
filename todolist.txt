@@ -1,0 +1,11 @@
+TO DO LIST FOR HACKATHON:
+
+    - DUE AT 10 PM
+
+    - create boilerplate templates that user can use
+
+    - potentially have support for youtube links so long as the videos are short enough
+
+    - support for image links, go to image and download the image 
+    
+    - make UI not look like shit lol
