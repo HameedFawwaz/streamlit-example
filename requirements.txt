@@ -7,6 +7,6 @@ IPython
 matplotlib
 imageio
 scikit-learn
-yaml
+PyYAML
 PIL
 scipy
